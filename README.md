@@ -14,7 +14,7 @@ This repo hosts the official implementary of:
 
 ## Introduction
 
-**Prompt-Free Diffusion** is a diffusion model that relys on only visual inputs to generate new images, handled by **Semantic Context Encoder (SeeCoder)** by substituting the commonly used CLIP-based text encoder. **SeeCoder** is <span style="background-color: #FFFF00">reusable to most public T2I models as well as adaptive layers</span> like ControlNet, LoRA, T2I_adapter, etc. Just drop in and play!
+**Prompt-Free Diffusion** is a diffusion model that relys on only visual inputs to generate new images, handled by **Semantic Context Encoder (SeeCoder)** by substituting the commonly used CLIP-based text encoder. SeeCoder is **reusable to most public T2I models as well as adaptive layers** like ControlNet, LoRA, T2I_adapter, etc. Just drop in and play!
 
 <p align="center">
   <img src="assets/figures/reusability.png" width="99%">
@@ -47,7 +47,7 @@ pip install -r requirement.txt
 
 ## Demo
 
-We provide a WebUI empowered by [Gradio]{https://github.com/gradio-app/gradio}. Start the WebUI with the following command:
+We provide a WebUI empowered by [Gradio](https://github.com/gradio-app/gradio). Start the WebUI with the following command:
 
 ```
 python app.py
