@@ -60,6 +60,8 @@ To support the full functionality of our demo. You need the following models loc
 ```
 └── pretrained
     ├── pfd
+    |   ├── vae
+    |   │   └── sd-v2-0-base-autokl.pth
     |   ├── diffuser
     |   │   ├── AbyssOrangeMix-v2.safetensors
     |   │   ├── AbyssOrangeMix-v3.safetensors

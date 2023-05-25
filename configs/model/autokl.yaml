@@ -23,4 +23,4 @@ autokl_v1:
 
 autokl_v2:
   super_cfg: autokl_v1
-  pth: pretrained/sd-v2-0-base-autokl.pth
+  pth: pretrained/pfd/vae/sd-v2-0-base-autokl.pth
