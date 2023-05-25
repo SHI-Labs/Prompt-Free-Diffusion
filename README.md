@@ -14,7 +14,7 @@ This repo hosts the official implementary of:
 
 ## Introduction
 
-**Prompt-Free Diffusion** is a diffusion model that relys on only visual inputs to generate new images, handled by **Semantic Context Encoder (SeeCoder)** by substituting the commonly used CLIP-based text encoder. SeeCoder is **reusable to most public T2I models as well as adaptive layers** like ControlNet, LoRA, T2I_adapter, etc. Just drop in and play!
+**Prompt-Free Diffusion** is a diffusion model that relys on only visual inputs to generate new images, handled by **Semantic Context Encoder (SeeCoder)** by substituting the commonly used CLIP-based text encoder. SeeCoder is **reusable to most public T2I models as well as adaptive layers** like ControlNet, LoRA, T2I-Adapter, etc. Just drop in and play!
 
 <p align="center">
   <img src="assets/figures/reusability.png" width="90%">
