@@ -59,7 +59,7 @@ To support the full functionality of our demo. You need the following models loc
 
 ```
 └── pretrained
-    ├── pdf
+    ├── pfd
     |   ├── diffuser
     |   │   ├── AbyssOrangeMix-v2.safetensors
     |   │   ├── AbyssOrangeMix-v3.safetensors
