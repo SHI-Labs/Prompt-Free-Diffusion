@@ -1,0 +1,35 @@
+openai_unet_sd:
+  type: openai_unet
+  args:
+    image_size: null # no use
+    in_channels: 4
+    out_channels: 4
+    model_channels: 320
+    attention_resolutions: [ 4, 2, 1 ]
+    num_res_blocks: [ 2, 2, 2, 2 ]
+    channel_mult: [ 1, 2, 4, 4 ]
+    # disable_self_attentions: [ False, False, False, False ]  # converts the self-attention to a cross-attention layer if true
+    num_heads: 8
+    use_spatial_transformer: True
+    transformer_depth: 1
+    context_dim: 768
+    use_checkpoint: True
+    legacy: False
+
+#########
+# v1 2d #
+#########
+
+openai_unet_2d_v1:
+  type: openai_unet_2d_next
+  args:
+    in_channels: 4
+    out_channels: 4
+    model_channels: 320
+    attention_resolutions: [ 4, 2, 1 ]
+    num_res_blocks: [ 2, 2, 2, 2 ]
+    channel_mult: [ 1, 2, 4, 4 ]
+    num_heads: 8
+    context_dim: 768
+    use_checkpoint: False
+    parts: [global, data, context]

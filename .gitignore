@@ -1,0 +1,17 @@
+__pycache__
+.vscode/
+data/
+data
+log/
+log
+pretrained/
+pretrained
+assets/nosync/
+assets/demo/temp/temp_*
+*.out
+gradio_cached_examples/
+src/*/build
+src/*/dist
+src/*/*.egg-info/
+extensions/
+extensions

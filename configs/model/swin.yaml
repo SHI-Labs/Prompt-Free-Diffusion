@@ -1,0 +1,32 @@
+swin:
+  symbol: swin
+  args: {}
+
+swin_base:
+  super_cfg: swin
+  type: swin
+  args:
+    embed_dim: 128
+    depths: [ 2, 2, 18, 2 ]
+    num_heads: [ 4, 8, 16, 32 ]
+    window_size: 7
+    ape: False
+    drop_path_rate: 0.3
+    patch_norm: True
+  pretrained: pretrained/swin/swin_base_patch4_window7_224_22k.pth
+  strict_sd: False
+
+swin_large:
+  super_cfg: swin
+  type: swin
+  args:
+    embed_dim: 192
+    depths: [ 2, 2, 18, 2 ]
+    num_heads: [ 6, 12, 24, 48 ]
+    window_size: 12
+    ape: False
+    drop_path_rate: 0.3
+    patch_norm: True
+  pretrained: pretrained/swin/swin_large_patch4_window12_384_22k.pth
+  strict_sd: False
+

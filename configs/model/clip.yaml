@@ -1,0 +1,12 @@
+################
+# clip for sd1 #
+################
+
+clip:
+  symbol: clip
+  args: {}
+
+clip_text_context_encoder_sdv1:
+  super_cfg: clip
+  type: clip_text_context_encoder_sdv1
+  args: {}

@@ -1,0 +1,62 @@
+seecoder_base:
+  symbol: seecoder
+  args: {}
+
+seecoder:
+  super_cfg: seecoder_base
+  type: seecoder
+  args:
+    imencoder_cfg : MODEL(swin_large)
+    imdecoder_cfg : MODEL(seecoder_decoder)
+    qtransformer_cfg : MODEL(seecoder_query_transformer)
+
+seecoder_pa:
+  super_cfg: seet
+  type: seecoder
+  args:
+    imencoder_cfg : MODEL(swin_large)
+    imdecoder_cfg : MODEL(seecoder_decoder)
+    qtransformer_cfg : MODEL(seecoder_query_transformer_position_aware)
+
+###########
+# decoder #
+###########
+
+seecoder_decoder:
+  super_cfg: seecoder_base
+  type: seecoder_decoder
+  args:
+    inchannels:
+      res3:  384
+      res4:  768
+      res5: 1536
+    trans_input_tags: ['res3', 'res4', 'res5']
+    trans_dim: 768
+    trans_dropout: 0.1
+    trans_nheads: 8
+    trans_feedforward_dim: 1024
+    trans_num_layers: 6
+
+#####################
+# query_transformer #
+#####################
+
+seecoder_query_transformer:
+  super_cfg: seecoder_base
+  type: seecoder_query_transformer
+  args:
+    in_channels : 768
+    hidden_dim: 768
+    num_queries: [4, 144]
+    nheads: 8
+    num_layers: 9
+    feedforward_dim: 2048
+    pre_norm: False
+    num_feature_levels: 3
+    enforce_input_project: False
+    with_fea2d_pos: false
+
+seecoder_query_transformer_position_aware:
+  super_cfg: seecoder_query_transformer
+  args:
+    with_fea2d_pos: true
