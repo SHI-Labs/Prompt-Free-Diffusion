@@ -21,6 +21,12 @@ This repo hosts the official implementary of:
   <img src="assets/figures/reusability.png" width="90%">
 </p>
 
+## Performance
+
+<p align="center">
+  <img src="assets/figures/qualitative_show.png" width="99%">
+</p>
+
 ## Network
 
 <p align="center">
@@ -29,12 +35,6 @@ This repo hosts the official implementary of:
 
 <p align="center">
   <img src="assets/figures/seecoder.png" width="99%">
-</p>
-
-## Performance
-
-<p align="center">
-  <img src="assets/figures/qualitative_show.png" width="99%">
 </p>
 
 ## Setup
