@@ -36,12 +36,6 @@ This repo hosts the official implementary of:
   <img src="assets/figures/qualitative_show.png" width="99%">
 </p>
 
-## Anime Performance
-
-<p align="center">
-  <img src="assets/figures/anime.png" width="99%">
-</p>
-
 ## Setup
 
 ```
@@ -122,4 +116,19 @@ We also provide tools to convert pretrained models from sdwebui and huggingface 
     └── model_conversion.pth
 ```
 
-You are expect to do some customized coding to make it work (i.e. changing hardcoded input output file paths)
+You are expected to do some customized coding to make it work (i.e. changing hardcoded input output file paths)
+
+## Performance Anime
+
+<p align="center">
+  <img src="assets/figures/anime.png" width="70%">
+</p>
+
+## Citation
+
+```
+```
+
+## Acknowledgement
+
+Part of the codes reorganizes/reimplements code from the following repositories: [Versatile Diffusion official Github](https://github.com/SHI-Labs/Versatile-Diffusion) and [ControlNet sdwebui Github](https://github.com/Mikubill/sd-webui-controlnet), which are also great influenced by [LDM official Github](https://github.com/CompVis/latent-diffusion) and Oriented from [DDPM official Github](https://github.com/lucidrains/denoising-diffusion-pytorch)
