@@ -1,4 +1,4 @@
-# Prompt-Free Generation
+# Prompt-Free Diffusion
 
 [![Huggingface space](https://img.shields.io/badge/🤗-Huggingface%20Space-cyan.svg)](https://huggingface.co/spaces/shi-labs/Prompt-Free-Diffusion)
 [![Framework: PyTorch](https://img.shields.io/badge/Framework-PyTorch-orange.svg)](https://pytorch.org/)
@@ -131,4 +131,4 @@ You are expected to do some customized coding to make it work (i.e. changing har
 
 ## Acknowledgement
 
-Part of the codes reorganizes/reimplements code from the following repositories: [Versatile Diffusion official Github](https://github.com/SHI-Labs/Versatile-Diffusion) and [ControlNet sdwebui Github](https://github.com/Mikubill/sd-webui-controlnet), which are also great influenced by [LDM official Github](https://github.com/CompVis/latent-diffusion) and Oriented from [DDPM official Github](https://github.com/lucidrains/denoising-diffusion-pytorch)
+Part of the codes reorganizes/reimplements code from the following repositories: [Versatile Diffusion official Github](https://github.com/SHI-Labs/Versatile-Diffusion) and [ControlNet sdwebui Github](https://github.com/Mikubill/sd-webui-controlnet), which are also great influenced by [LDM official Github](https://github.com/CompVis/latent-diffusion) and [DDPM official Github](https://github.com/lucidrains/denoising-diffusion-pytorch)
