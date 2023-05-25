@@ -1,6 +1,6 @@
 # Prompt-Free Generation
 
-[![Huggingface space](https://img.shields.io/badge/🤗-Huggingface%20Space-cyan.svg)](https://huggingface.co/spaces/shi-labs/Versatile-Diffusion)
+[![Huggingface space](https://img.shields.io/badge/🤗-Huggingface%20Space-cyan.svg)](https://huggingface.co/spaces/shi-labs/Prompt-Free-Diffusion)
 [![Framework: PyTorch](https://img.shields.io/badge/Framework-PyTorch-orange.svg)](https://pytorch.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -17,7 +17,7 @@ This repo hosts the official implementary of:
 **Prompt-Free Diffusion** is a diffusion model that relys on only visual inputs to generate new images, handled by **Semantic Context Encoder (SeeCoder)** by substituting the commonly used CLIP-based text encoder. SeeCoder is **reusable to most public T2I models as well as adaptive layers** like ControlNet, LoRA, T2I_adapter, etc. Just drop in and play!
 
 <p align="center">
-  <img src="assets/figures/reusability.png" width="99%">
+  <img src="assets/figures/reusability.png" width="90%">
 </p>
 
 ## Network
