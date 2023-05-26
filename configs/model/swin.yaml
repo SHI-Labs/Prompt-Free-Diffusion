@@ -13,7 +13,6 @@ swin_base:
     ape: False
     drop_path_rate: 0.3
     patch_norm: True
-  pretrained: pretrained/swin/swin_base_patch4_window7_224_22k.pth
   strict_sd: False
 
 swin_large:
@@ -27,6 +26,5 @@ swin_large:
     ape: False
     drop_path_rate: 0.3
     patch_norm: True
-  pretrained: pretrained/swin/swin_large_patch4_window12_384_22k.pth
   strict_sd: False
 
