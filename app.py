@@ -489,5 +489,5 @@ if True:
         #     </div>
         #     """.format(' '+str(pfd_inference.pretrained)))
 
-    demo.launch(server_name="0.0.0.0", server_port=7992)
+    demo.launch(server_name="0.0.0.0", server_port=11234)
     # demo.launch()
