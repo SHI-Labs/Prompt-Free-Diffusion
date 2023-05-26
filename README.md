@@ -106,7 +106,7 @@ To support the full functionality of our demo. You need the following models loc
                 └── upernet_global_small.pth
 ```
 
-All models can be downloaded at [Hugging Face link](https://huggingface.co/).
+All models can be downloaded at [Hugging Face link](https://huggingface.co/shi-labs/prompt-free-diffusion).
 
 ## Tools
 
