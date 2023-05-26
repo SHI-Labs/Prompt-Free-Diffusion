@@ -101,10 +101,8 @@ To support the full functionality of our demo. You need the following models loc
             │   ├── body_pose_model.pth
             │   ├── facenet.pth
             │   └── hand_pose_model.pth
-            ├── pidinet
-            │   └── table5_pidinet.pth
-            └── uniformer
-                └── upernet_global_small.pth
+            └── pidinet
+                └── table5_pidinet.pth
 ```
 
 All models can be downloaded at [Hugging Face link](https://huggingface.co/shi-labs/prompt-free-diffusion).
