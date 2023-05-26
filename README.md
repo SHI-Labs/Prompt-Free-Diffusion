@@ -10,7 +10,7 @@ This repo hosts the official implementary of:
 
 ## News
 
-- **[2023.05.25]: Our demo is running on [HuggingFace🤗]{https://huggingface.co/spaces/shi-labs/Prompt-Free-Diffusion}**
+- **[2023.05.25]: Our demo is running on [HuggingFace🤗](https://huggingface.co/spaces/shi-labs/Prompt-Free-Diffusion)**
 - [2023.05.25]: Repo created
 
 ## Introduction
