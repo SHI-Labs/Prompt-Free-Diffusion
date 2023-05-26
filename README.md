@@ -4,7 +4,7 @@
 [![Framework: PyTorch](https://img.shields.io/badge/Framework-PyTorch-orange.svg)](https://pytorch.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This repo hosts the official implementary of:
+This repo hosts the official implementation of:
 
 [Xingqian Xu](https://ifp-uiuc.github.io/), Jiayi Guo, Zhangyang Wang, Gao Huang, Irfan Essa, and [Humphrey Shi](https://www.humphreyshi.com/home), **Prompt-Free Diffusion: Taking "Text" out of Text-to-Image Diffusion Models**, [Paper arXiv Link](https://arxiv.org/abs/2305.16223).
 
