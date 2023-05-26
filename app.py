@@ -475,6 +475,10 @@ if True:
             <h1 style="font-weight: 900; font-size: 3rem; margin: 0rem">
                 Prompt-Free Diffusion
             </h1>
+            <p style="font-weight: 300; font-size: 1rem; margin: 0rem">
+                Xingqian Xu<sup>1,6</sup>, Jiayi Guo<sup>1,2</sup>, Zhangyang Wang<sup>3,6</sup>, Gao Huang<sup>2</sup>, Irfan Essa<sup>4,5</sup>, and Humphrey Shi<sup>1,6</sup>
+                <a href="https://github.com/SHI-Labs/Prompt-Free-Diffusion">[Github]</a> <a href="https://arxiv.org/abs/2305.16223">[arXiv]</a>
+            <p>
             </div>
             """)
 
