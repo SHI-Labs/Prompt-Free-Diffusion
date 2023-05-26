@@ -2,7 +2,7 @@
 # Copyright (C) 2023 Xingqian Xu - All Rights Reserved                         #
 #                                                                              #
 # Please visit Prompt-Free-Diffusion's arXiv paper for more details, link at   #
-# arxiv.org/abs/2211.08332                                                     #
+# arxiv.org/abs/2305.16223                                                     #
 #                                                                              #
 ################################################################################
 
