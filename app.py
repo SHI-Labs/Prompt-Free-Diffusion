@@ -27,13 +27,13 @@ controlnet_path = OrderedDict([
     ['canny_v11p'        , ('canny'   , 'pretrained/controlnet/control_v11p_sd15_canny_slimmed.safetensors')],
     ['depth'             , ('depth'   , 'pretrained/controlnet/control_sd15_depth_slimmed.safetensors')],
     ['hed'               , ('hed'     , 'pretrained/controlnet/control_sd15_hed_slimmed.safetensors')],
+    ['softedge_v11p'     , ('hed'     , 'pretrained/controlnet/control_v11p_sd15_softedge_slimmed.safetensors')],
     ['mlsd'              , ('mlsd'    , 'pretrained/controlnet/control_sd15_mlsd_slimmed.safetensors')],
     ['mlsd_v11p'         , ('mlsd'    , 'pretrained/controlnet/control_v11p_sd15_mlsd_slimmed.safetensors')],
     ['normal'            , ('normal'  , 'pretrained/controlnet/control_sd15_normal_slimmed.safetensors')],
     ['openpose'          , ('openpose', 'pretrained/controlnet/control_sd15_openpose_slimmed.safetensors')],
     ['openpose_v11p'     , ('openpose', 'pretrained/controlnet/control_v11p_sd15_openpose_slimmed.safetensors')],
     ['scribble'          , ('scribble', 'pretrained/controlnet/control_sd15_scribble_slimmed.safetensors')],
-    ['softedge_v11p'     , ('scribble', 'pretrained/controlnet/control_v11p_sd15_softedge_slimmed.safetensors')],
     ['seg'               , ('none'    , 'pretrained/controlnet/control_sd15_seg_slimmed.safetensors')],
     ['lineart_v11p'      , ('none'    , 'pretrained/controlnet/control_v11p_sd15_lineart_slimmed.safetensors')],
     ['lineart_anime_v11p', ('none'    , 'pretrained/controlnet/control_v11p_sd15s2_lineart_anime_slimmed.safetensors')],
@@ -475,10 +475,19 @@ if True:
             <h1 style="font-weight: 900; font-size: 3rem; margin: 0rem">
                 Prompt-Free Diffusion
             </h1>
-            <p style="font-weight: 300; font-size: 1rem; margin: 0rem">
+            <p style="font-size: 1rem; margin: 0rem">
                 Xingqian Xu<sup>1,6</sup>, Jiayi Guo<sup>1,2</sup>, Zhangyang Wang<sup>3,6</sup>, Gao Huang<sup>2</sup>, Irfan Essa<sup>4,5</sup>, and Humphrey Shi<sup>1,6</sup>
+            </p>
+            <p style="font-size: 0.8rem; margin: 0rem; line-height: 1em">
+                <sup>1</sup>SHI Labs @ UIUC & Oregon, <sup>2</sup>Tsinghua University, <sup>3</sup>UT Austin, <sup>4</sup>Georgia Tech, <sup>5</sup>Google Research, <sup>6</sup>Picsart AI Research (PAIR)
+            </p>
+            <p style="font-size: 0.9rem; margin: 0rem; line-height: 1.2em; margin-top:1em">
+                The performance of Text2Image is largely dependent on text prompts. 
+                In Prompt-Free Diffusion, no prompt is needed, just a reference images! 
+                At the core of Prompt-Free Diffusion is an image-only semantic context encoder (SeeCoder). 
+                SeeCoder is reusable to most CLIP-based T2I models: just drop in and replace CLIP, then you will create your own prompt-free diffusion.
                 <a href="https://github.com/SHI-Labs/Prompt-Free-Diffusion">[Github]</a> <a href="https://arxiv.org/abs/2305.16223">[arXiv]</a>
-            <p>
+            </p>
             </div>
             """)
 
