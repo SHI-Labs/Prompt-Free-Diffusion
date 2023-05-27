@@ -128,6 +128,15 @@ You are expected to do some customized coding to make it work (i.e. changing har
 ## Citation
 
 ```
+@article{prompt-free-diffusion,
+	title        = {Prompt-Free Diffusion: Taking "Text" out of Text-to-Image Diffusion Models},
+	author       = {Xingqian Xu, Jiayi Guo, Zhangyang Wang, Gao Huang, Irfan Essa, Humphrey Shi},
+	year         = 2023,
+	url          = {https://arxiv.org/abs/2305.16223},
+	eprint       = {2305.16223},
+	archiveprefix = {arXiv},
+	primaryclass = {cs.CV}
+}
 ```
 
 ## Acknowledgement
