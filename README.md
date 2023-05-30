@@ -128,14 +128,11 @@ You are expected to do some customized coding to make it work (i.e. changing har
 ## Citation
 
 ```
-@article{prompt-free-diffusion,
-	title        = {Prompt-Free Diffusion: Taking "Text" out of Text-to-Image Diffusion Models},
-	author       = {Xingqian Xu, Jiayi Guo, Zhangyang Wang, Gao Huang, Irfan Essa, Humphrey Shi},
-	year         = 2023,
-	url          = {https://arxiv.org/abs/2305.16223},
-	eprint       = {2305.16223},
-	archiveprefix = {arXiv},
-	primaryclass = {cs.CV}
+@article{xu2023prompt,
+  title={Prompt-Free Diffusion: Taking" Text" out of Text-to-Image Diffusion Models},
+  author={Xu, Xingqian and Guo, Jiayi and Wang, Zhangyang and Huang, Gao and Essa, Irfan and Shi, Humphrey},
+  journal={arXiv preprint arXiv:2305.16223},
+  year={2023}
 }
 ```
 
