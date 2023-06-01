@@ -334,12 +334,6 @@ def get_example():
             768, 576, 1.5, 22, 
             'SeeCoder-Anime', 'Anything-v4', 'canny', ],
         [
-            'assets/examples-anime/random0.jpg', 
-            'assets/examples-anime/pose.png', 
-            'openpose', False, 
-            768, 1536, 2.0, 41, 
-            'SeeCoder-Anime', 'Oam-v2', 'openpose_v11p', ],
-        [
             'assets/examples-anime/random1.jpg', 
             'assets/examples-anime/pose.png', 
             'openpose', False, 
