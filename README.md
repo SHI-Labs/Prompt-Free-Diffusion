@@ -10,7 +10,7 @@ This repo hosts the official implementation of:
 
 ## News
 
-- **[2023.05.25]: Our demo is running on [HuggingFace🤗](https://huggingface.co/spaces/shi-labs/Prompt-Free-Diffusion)**
+- **[2023.05.25]: Our demo is running on [Hugging Face🤗](https://huggingface.co/spaces/shi-labs/Prompt-Free-Diffusion)**
 - [2023.05.25]: Repo created
 
 ## Introduction
@@ -109,7 +109,7 @@ All models can be downloaded at [Hugging Face link](https://huggingface.co/shi-l
 
 ## Tools
 
-We also provide tools to convert pretrained models from sdwebui and huggingface diffuser library to this codebase, please modify the following files:
+We also provide tools to convert pretrained models from sdwebui and Hugging Face diffuser library to this codebase, please modify the following files:
 
 ```
 └── tools
