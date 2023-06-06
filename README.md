@@ -1,6 +1,6 @@
 # Prompt-Free Diffusion
 
-[![Huggingface space](https://img.shields.io/badge/🤗-Huggingface%20Space-cyan.svg)](https://huggingface.co/spaces/shi-labs/Prompt-Free-Diffusion)
+[![HuggingFace space](https://img.shields.io/badge/🤗-Huggingface%20Space-cyan.svg)](https://huggingface.co/spaces/shi-labs/Prompt-Free-Diffusion)
 [![Framework: PyTorch](https://img.shields.io/badge/Framework-PyTorch-orange.svg)](https://pytorch.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -105,11 +105,11 @@ To support the full functionality of our demo. You need the following models loc
                 └── table5_pidinet.pth
 ```
 
-All models can be downloaded at [Hugging Face link](https://huggingface.co/shi-labs/prompt-free-diffusion).
+All models can be downloaded at [HuggingFace link](https://huggingface.co/shi-labs/prompt-free-diffusion).
 
 ## Tools
 
-We also provide tools to convert pretrained models from sdwebui and huggingface diffuser library to this codebase, please modify the following files:
+We also provide tools to convert pretrained models from sdwebui and diffuser library to this codebase, please modify the following files:
 
 ```
 └── tools
