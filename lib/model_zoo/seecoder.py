@@ -3,7 +3,6 @@ import torch.nn as nn
 import torch.nn.functional as F
 import copy
 
-from .seecoder_utils import with_pos_embed
 from lib.model_zoo.common.get_model import get_model, register
 
 symbol = 'seecoder'
@@ -11,6 +10,9 @@ symbol = 'seecoder'
 ###########
 # helpers #
 ###########
+
+def with_pos_embed(x, pos):
+    return x if pos is None else x + pos
 
 def _get_clones(module, N):
     return nn.ModuleList([copy.deepcopy(module) for i in range(N)])
@@ -552,7 +554,7 @@ class QueryTransformer(nn.Module):
 ##################
 
 @register('seecoder')
-class SemanticExtractionEncoder(nn.Module):
+class SemanticContextEncoder(nn.Module):
     def __init__(self, 
                  imencoder_cfg, 
                  imdecoder_cfg,
