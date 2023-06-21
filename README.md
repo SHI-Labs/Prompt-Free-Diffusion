@@ -10,7 +10,7 @@ This repo hosts the official implementation of:
 
 ## News
 
-- **[2023.06.20]: SDWebUI plugin is created, instructions in this [link](https://github.com/xingqian2018/sd-webui-prompt-free-diffusion)**
+- **[2023.06.20]: SDWebUI plugin is created, repo at this [link](https://github.com/xingqian2018/sd-webui-prompt-free-diffusion)**
 - [2023.05.25]: Our demo is running on [HuggingFace🤗](https://huggingface.co/spaces/shi-labs/Prompt-Free-Diffusion)
 - [2023.05.25]: Repo created
 
