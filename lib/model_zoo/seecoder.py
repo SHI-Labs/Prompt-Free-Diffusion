@@ -67,7 +67,7 @@ class DecoderLayer(nn.Module):
 
         super().__init__()
 
-        self.self_attn = nn.MultiheadAttention(dim, n_heads, dropout=dropout)
+        self.self_attn = nn.MultiheadAttention(dim, n_heads, dropout=dropout, batch_first=True)
         self.dropout1 = nn.Dropout(dropout)
         self.norm1 = nn.LayerNorm(dim)
 
